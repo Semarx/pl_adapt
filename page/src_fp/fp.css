@@ -1,0 +1,13 @@
+.fpstage{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:18px;align-items:start}
+.fpstage .gside canvas{height:500px}
+.fpright{display:grid;gap:14px}
+.fpright .hero3.hero4{grid-template-columns:1fr 1fr}
+.fpright .hero3 .hv{font-size:28px}
+.fpright .hero3 .h{padding:15px 10px}
+.fpright .verdict{min-height:96px;font-size:14px}
+.strip{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px 8px}
+.strip h3{margin:0 0 6px;font-size:11px;font-weight:600;color:var(--dim);
+  text-transform:uppercase;letter-spacing:.08em}
+.strip svg{display:block;width:100%;height:auto}
+.note{color:var(--dim);font-size:12px;margin-top:-6px}
+@media (max-width:920px){.fpstage{grid-template-columns:1fr}}
